@@ -33,3 +33,35 @@ Gulp\
 &#9733; &#9733; &#9733; &#9734; &#9734;
 &nbsp; &nbsp; &nbsp;  &nbsp;
 Git
+
+
+## __*Code examples*__
+
+```javascript
+function factorial(n) {
+  if (n < 0 || n > 12) {
+    throw new RangeError();
+  }
+
+  if (n == 1 || !n) {
+    return 1;
+  }
+  else {
+    return n * factorial(n - 1);
+  }
+}
+```
+
+
+## __*Experience*__
+no experience
+
+
+## __*Education*__
+- IT Online courses
+- Youtube IT chanels
+- Selfeducation
+
+
+## __*English*__
+pre-intermediate
