@@ -18,3 +18,104 @@ body {
   margin: 0 auto;
   width: 1024px;
 }
+
+.name,
+.title {
+  background: -webkit-linear-gradient(45deg, #09009f, rgba(33,154,156,0.65));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-info i::before,
+.footer i::before {
+  color: rgba(10, 0, 159);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+/* Header */
+.header {
+  padding: 100px 0 30px;
+}
+
+.header .content-inner {
+  overflow: auto;
+}
+
+.header h1 {
+  font-size: 48px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.header .my-info {
+  float: right;
+  margin-right: 270px;
+  margin-top: 20px;
+}
+
+.my-info p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+/* Main content */
+.main-content {
+  clear: both;
+}
+
+.cv-item {
+  margin-top: 70px;
+}
+
+.cv-item .title {
+  border-bottom: 2px solid rgba(10, 0, 159);
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.cv-item p {
+  line-height: 30px;
+}
+
+.cv-item p,
+.cv-item .edu-set {
+  font-size: 20px;
+}
+
+.cv-item code {
+  font-size: 18px;
+}
+
+code .keyword {
+  font-weight: 700;
+}
+
+.cv-item .edu-set {
+  list-style: none;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 80px 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  display: inline;
+  font-size: 20px;
+}
+
+.footer p:last-child {
+  margin-left: 150px;
+}
